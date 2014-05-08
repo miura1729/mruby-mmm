@@ -10,9 +10,9 @@ end
 a = Foo.new
 fst = a.inspect
 a.move
-p a
+a = Foo.new
 amov = a.inspect
-p a
+a = Foo.new
 anew = a.inspect
 
 assert('reuse moved object') do
