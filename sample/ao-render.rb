@@ -158,8 +158,8 @@ class Ray
 end
 
 class Isect
-#  include  MMMI
-#  extend MMMC
+  include  MMMI
+  extend MMMC
 
   def initialize
     @t = 10000000.0
@@ -258,7 +258,7 @@ class Scene
         else
           0.0
         end
-#        occisect.move
+        occisect.move
       end
     end
 
@@ -302,7 +302,7 @@ class Scene
               rad.x = rad.x + col.x
               rad.y = rad.y + col.y
               rad.z = rad.z + col.z
-#              col.move
+              col.move
             else
               0.0
             end
