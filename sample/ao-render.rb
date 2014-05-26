@@ -31,8 +31,7 @@ module Rand
 end
 
 class Vec
-  include  MMMI
-  extend MMMC
+  include  MMM
 
   def initialize(x, y, z)
     @x = x
@@ -158,8 +157,7 @@ class Ray
 end
 
 class Isect
-  include  MMMI
-  extend MMMC
+  include  MMM
 
   def initialize
     @t = 10000000.0
